@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="apiModules.apiTests" time="4.667" tests="7" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Intercab\testAPIAutomation\target\test-classes;C:\Intercab\testAPIAutomation\target\classes;C:\Users\UC891TX\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\UC891TX\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\UC891TX\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\UC891TX\.m2\repository\io\rest-assured\rest-assured\5.5.1\rest-assured-5.5.1.jar;C:\Users\UC891TX\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\UC891TX\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\UC891TX\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\UC891TX\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\UC891TX\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\UC891TX\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\UC891TX\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\UC891TX\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\UC891TX\.m2\repository\io\rest-assured\json-path\5.5.1\json-path-5.5.1.jar;C:\Users\UC891TX\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\UC891TX\.m2\repository\io\rest-assured\rest-assured-common\5.5.1\rest-assured-common-5.5.1.jar;C:\Users\UC891TX\.m2\repository\io\rest-assured\xml-path\5.5.1\xml-path-5.5.1.jar;C:\Users\UC891TX\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\UC891TX\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\UC891TX\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\UC891TX\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\UC891TX\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\UC891TX\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Users\UC891TX\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\UC891TX\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\UC891TX\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\UC891TX\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\UC891TX\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\UC891TX\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\UC891TX\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar;C:\Users\UC891TX\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar;C:\Users\UC891TX\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar;C:\Users\UC891TX\.m2\repository\org\hamcrest\hamcrest\3.0\hamcrest-3.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="user.country.format" value="BR"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.17\bin"/>
+    <property name="sun.java.command" value="C:\Users\UC891TX\AppData\Local\Temp\surefire10955879481722286967\surefirebooter-20250305152821694_3.jar C:\Users\UC891TX\AppData\Local\Temp\surefire10955879481722286967 2025-03-05T15-28-21_425-jvmRun1 surefire-20250305152821694_1tmp surefire_0-20250305152821694_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Intercab\testAPIAutomation\target\test-classes;C:\Intercab\testAPIAutomation\target\classes;C:\Users\UC891TX\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\UC891TX\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\UC891TX\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\UC891TX\.m2\repository\io\rest-assured\rest-assured\5.5.1\rest-assured-5.5.1.jar;C:\Users\UC891TX\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\UC891TX\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\UC891TX\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\UC891TX\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\UC891TX\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\UC891TX\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\UC891TX\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\UC891TX\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\UC891TX\.m2\repository\io\rest-assured\json-path\5.5.1\json-path-5.5.1.jar;C:\Users\UC891TX\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\UC891TX\.m2\repository\io\rest-assured\rest-assured-common\5.5.1\rest-assured-common-5.5.1.jar;C:\Users\UC891TX\.m2\repository\io\rest-assured\xml-path\5.5.1\xml-path-5.5.1.jar;C:\Users\UC891TX\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\UC891TX\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\UC891TX\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\UC891TX\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\UC891TX\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\UC891TX\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Users\UC891TX\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\UC891TX\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\UC891TX\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\UC891TX\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\UC891TX\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\UC891TX\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\UC891TX\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar;C:\Users\UC891TX\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar;C:\Users\UC891TX\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar;C:\Users\UC891TX\.m2\repository\org\hamcrest\hamcrest\3.0\hamcrest-3.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\UC891TX"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Intercab\testAPIAutomation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\UC891TX\AppData\Local\Temp\surefire10955879481722286967\surefirebooter-20250305152821694_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.17+10-LTS-269"/>
+    <property name="user.name" value="UC891TX"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\UC891TX\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\UC891TX\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.17"/>
+    <property name="user.dir" value="C:\Intercab\testAPIAutomation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="user.language.format" value="pt"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Riverbed\Steelhead Mobile\;C:\Program Files\1E\Client\Extensibility\NomadBranch;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-11.0.17\bin;C:\apache-maven-3.9.9\bin;C:\Users\UC891TX\.m2\repository\allure-2.32.2\bin;C:\Users\UC891TX\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\bin;;C:\Users\UC891TX\AppData\Local\Programs\Git\cmd;C:\Users\UC891TX\AppData\Roaming\npm;C:\Users\UC891TX\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-11.0.17\bin;C:\apache-maven-3.9.9\bin;C:\Users\UC891TX\.m2\repository\allure-2.32.2\bin;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.17+10-LTS-269"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="createAUserWithRandomNameAndJobTitle" classname="apiModules.apiTests" time="2.252">
+    <system-out><![CDATA[Creating user with:
+Name: Cherilyn
+Job: Regional Healthcare Supervisor
+Response received:
+Name: Cherilyn
+Job: Regional Healthcare Supervisor
+ID: 770
+]]></system-out>
+  </testcase>
+  <testcase name="listUsersAndStoreRandomId" classname="apiModules.apiTests" time="0.171">
+    <system-out><![CDATA[User Details:
+Email: george.bluth@reqres.in
+First Name: George
+Last Name: Bluth
+Avatar: https://reqres.in/img/faces/1-image.jpg
+--------------------------
+User Details:
+Email: janet.weaver@reqres.in
+First Name: Janet
+Last Name: Weaver
+Avatar: https://reqres.in/img/faces/2-image.jpg
+--------------------------
+User Details:
+Email: emma.wong@reqres.in
+First Name: Emma
+Last Name: Wong
+Avatar: https://reqres.in/img/faces/3-image.jpg
+--------------------------
+User Details:
+Email: eve.holt@reqres.in
+First Name: Eve
+Last Name: Holt
+Avatar: https://reqres.in/img/faces/4-image.jpg
+--------------------------
+User Details:
+Email: charles.morris@reqres.in
+First Name: Charles
+Last Name: Morris
+Avatar: https://reqres.in/img/faces/5-image.jpg
+--------------------------
+User Details:
+Email: tracey.ramos@reqres.in
+First Name: Tracey
+Last Name: Ramos
+Avatar: https://reqres.in/img/faces/6-image.jpg
+--------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="returnError404WhenSearchingForANonExistentUser" classname="apiModules.apiTests" time="0.085"/>
+  <testcase name="updateUsersNameAndJobTitle" classname="apiModules.apiTests" time="0.534">
+    <system-out><![CDATA[Patch response:
+Name: morpheus
+Job: zion resident
+ID: null
+]]></system-out>
+  </testcase>
+  <testcase name="validateAllPagesOfUsers" classname="apiModules.apiTests" time="0.23">
+    <system-out><![CDATA[User Details:
+Email: george.bluth@reqres.in
+First Name: George
+Last Name: Bluth
+Avatar: https://reqres.in/img/faces/1-image.jpg
+--------------------------
+User Details:
+Email: janet.weaver@reqres.in
+First Name: Janet
+Last Name: Weaver
+Avatar: https://reqres.in/img/faces/2-image.jpg
+--------------------------
+User Details:
+Email: emma.wong@reqres.in
+First Name: Emma
+Last Name: Wong
+Avatar: https://reqres.in/img/faces/3-image.jpg
+--------------------------
+User Details:
+Email: eve.holt@reqres.in
+First Name: Eve
+Last Name: Holt
+Avatar: https://reqres.in/img/faces/4-image.jpg
+--------------------------
+User Details:
+Email: charles.morris@reqres.in
+First Name: Charles
+Last Name: Morris
+Avatar: https://reqres.in/img/faces/5-image.jpg
+--------------------------
+User Details:
+Email: tracey.ramos@reqres.in
+First Name: Tracey
+Last Name: Ramos
+Avatar: https://reqres.in/img/faces/6-image.jpg
+--------------------------
+User Details:
+Email: michael.lawson@reqres.in
+First Name: Michael
+Last Name: Lawson
+Avatar: https://reqres.in/img/faces/7-image.jpg
+--------------------------
+User Details:
+Email: lindsay.ferguson@reqres.in
+First Name: Lindsay
+Last Name: Ferguson
+Avatar: https://reqres.in/img/faces/8-image.jpg
+--------------------------
+User Details:
+Email: tobias.funke@reqres.in
+First Name: Tobias
+Last Name: Funke
+Avatar: https://reqres.in/img/faces/9-image.jpg
+--------------------------
+User Details:
+Email: byron.fields@reqres.in
+First Name: Byron
+Last Name: Fields
+Avatar: https://reqres.in/img/faces/10-image.jpg
+--------------------------
+User Details:
+Email: george.edwards@reqres.in
+First Name: George
+Last Name: Edwards
+Avatar: https://reqres.in/img/faces/11-image.jpg
+--------------------------
+User Details:
+Email: rachel.howell@reqres.in
+First Name: Rachel
+Last Name: Howell
+Avatar: https://reqres.in/img/faces/12-image.jpg
+--------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="validateSpecificUserWithRandomId" classname="apiModules.apiTests" time="0.101">
+    <system-out><![CDATA[User Details:
+Email: tracey.ramos@reqres.in
+First Name: Tracey
+Last Name: Ramos
+Avatar: https://reqres.in/img/faces/6-image.jpg
+--------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="deleteTheCreatedAndUpdatedUser" classname="apiModules.apiTests" time="0.569">
+    <failure message="org.hamcrest.Matcher.describeMismatch(Ljava/lang/Object;Lorg/hamcrest/Description;)V" type="java.lang.NoSuchMethodError"><![CDATA[java.lang.NoSuchMethodError: org.hamcrest.Matcher.describeMismatch(Ljava/lang/Object;Lorg/hamcrest/Description;)V
+	at io.restassured.internal.util.MatcherErrorMessageBuilder.buildError(MatcherErrorMessageBuilder.java:35)
+	at io.restassured.internal.util.MatcherErrorMessageBuilder$buildError.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:148)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validateStatusCodeAndStatusLine(ResponseSpecificationImpl.groovy:569)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.this$2$validateStatusCodeAndStatusLine(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:490)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at apiModules.apiTests.deleteTheCreatedAndUpdatedUser(apiTests.java:230)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+  </testcase>
+</testsuite>
