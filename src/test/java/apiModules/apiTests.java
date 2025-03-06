@@ -1,6 +1,5 @@
 package apiModules;
 
-import com.github.javafaker.Faker;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.testng.Assert;
@@ -97,7 +96,7 @@ public class apiTests {
         int randomIndex = (int) (Math.random() * response.jsonPath().getList("data").size());
         randomUserId = (Integer) response.jsonPath().getList("data.id").get(randomIndex);
 
-        // Valida as propriedades dos usuários
+        // Valida as propriedades do usuário
         validateListOfUsers(response.jsonPath().getList("data"));
     }
 
