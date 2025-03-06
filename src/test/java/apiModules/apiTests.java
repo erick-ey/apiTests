@@ -186,7 +186,7 @@ public class apiTests {
 
     @Test(dependsOnMethods = "createAUserWithRandomNameAndJobTitle")
     public void updateUsersNameAndJobTitle() {
-        int userId = newUserId;
+        int userId = newUserId; // Obtém o ID do usuário criado anteriormente
 
         String updatedName = "morpheus";
         String updatedJob = "zion resident";
